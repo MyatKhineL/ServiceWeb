@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }	
+  h1{
+    text-align: center;
+    margin: 15px;
+  }	
+  .a{
+    border: 1px solid black; 
+    background-color: grey;
+    margin: 10px;
+    font-family: Times New Romen;
+  }
+  .b{
+    border: 1px solid black; 
+    background-color: grey;
+    margin: 10px;
+    font-family: Times New Romen;
+  }
+  .c{
+    border: 1px solid black; 
+    background-color: grey;
+    margin: 10px;
+    font-family: Times New Romen;
+  }
+  .p{
+  clear:right; 
+  padding: 5px;
+  }
+  h3{
+  border: 1px solid black; 
+  text-align: center; 
+  float: right; 
+  height: 25px;
+  padding: 2px;}
+  h1{ 
+  background-color: pink;
+  }
+  h2{
+  background-color: brown;
+  }
+  h3{
+  background-color: yellow;}
+ .container{
+  display:flex;
+  }
+
+  @media screen and (max-width:400px){
+    .container{
+        display:block;
+    
+    }
+
+  }
+
